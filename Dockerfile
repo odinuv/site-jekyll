@@ -9,6 +9,6 @@ ENV LC_ALL C.UTF-8
 
 RUN gem install bundle \
   && gem install jekyll \
-  && gem install slideshow \ 
-  && bundle install
+  && bundle install \
+  && slideshow install deck.js 
 
