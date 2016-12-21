@@ -14,4 +14,4 @@ RUN apt-get update &&
 
 RUN gem install bundle \
   && gem install jekyll \
-  && bundle install \
+  && bundle install
